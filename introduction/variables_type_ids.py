@@ -12,3 +12,12 @@ x = [1,2,3]
 y = x
 
 print(x is y)
+
+
+
+
+
+def saludar(nombre):
+    print("Hola " + nombre)
+
+saludar("Carlos")

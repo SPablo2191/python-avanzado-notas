@@ -6,7 +6,7 @@ def by_value(my_number):
     my_number = my_number + 1
     print("Inside function:", my_number)
 
-original_list = [1, 2, 3]
+original_list = [1, 2, 3] # y = x 
 by_reference(original_list)
 print("Outside function:", original_list)
 
