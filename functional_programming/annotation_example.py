@@ -1,4 +1,4 @@
-def suma(a : int | float,b : int | float) -> int|float:
+def suma(a : int,b : int) -> int:
     """suma de 2 numeros
 
     Args:
@@ -11,3 +11,7 @@ def suma(a : int | float,b : int | float) -> int|float:
     return a + b
 
 print(suma(b=1,a=2))
+
+
+
+
